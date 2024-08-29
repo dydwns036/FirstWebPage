@@ -1,0 +1,110 @@
+body:after {
+    -moz-pointer-events: none;
+    -webkit-pointer-events: none;
+    -ms-pointer-events: none;
+    pointer-events: none;
+    -moz-transition: opacity 1.5s ease-in-out, visibility 1.5s;
+    -webkit-transition: opacity 1.5s ease-in-out, visibility 1.5s;
+    -ms-transition: opacity 1.5s ease-in-out, visibility 1.5s;
+    transition: opacity 1.5s ease-in-out, visibility 1.5s;
+    content: '';
+    background-image: url(../../images/i8215282265.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    visibility: visible;
+    opacity: 1;
+}
+
+.wrapper > header {
+    text-align: center;
+    background: transparent;
+    padding: 2rem;
+    margin: 0;
+}
+
+header p {
+    color: #f3f6f0;
+}
+
+#main .inner{
+    background: transparent;
+}
+
+.spotlight.alt {
+    background: transparent;
+    color: rgba(255, 255, 255, 0.25);
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    text-align: right;
+}
+
+.wrapper.style2 {
+    background: transparent;
+    padding: 6rem;
+}
+
+.wrapper.style2 header {
+    background: transparent;
+    border-radius: 4px 4px 0 0;
+}
+
+.wrapper.style2 header h2:after {
+    background-color: transparent;
+}
+
+.special h2{
+   font-size: 300%;
+   color: #f3f6f0;
+}
+
+#one p{
+    font-size: 150%;
+    color: #f3f6f0;
+    font-weight: bold;
+    text-align: center; 
+}
+
+#id > #content{
+    size: 300%;
+}
+
+#two h2{
+    font-size: 300%;
+}
+
+#two p{
+    font-size: 150%;
+    color: #f3f6f0;
+    font-weight: bold;
+}
+
+#three h3{
+    font-size: 115%;
+    color: #f3f6f0;
+    font-weight: bold;
+}
+
+#three p{
+    font-size: 110%;
+    color: #f3f6f0;
+    font-weight: bold;
+}
